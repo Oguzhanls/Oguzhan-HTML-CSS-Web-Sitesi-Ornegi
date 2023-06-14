@@ -1,0 +1,242 @@
+html, body{
+    margin: 0;
+    padding: 0; 
+    height: 100%; 
+    text-align: center;
+}
+section{
+    min-height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+h1, h2, h3, a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #494949; 
+    text-transform: uppercase;
+}
+
+h1{
+    color: black;
+}
+h2{
+    color: #5d7177;
+}
+
+h3{ font-size: 40px;
+    padding-top: 8%; 
+    margin-bottom: 5px;
+}
+
+h4, p{ 
+    font-family: 'Roboto', sans-serif;
+}
+
+hr{
+    width: 30px; 
+    height: 3px; 
+    background: #494949; 
+    border: 0; 
+    margin: 0 auto 40px auto;
+}
+
+/*Headr*/
+
+header{
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+#logo{
+    width: 250px;
+    float: left;
+    margin: -5px 0 0 -10px;
+}
+
+#logo:hover{
+    opacity: 0.5;
+}
+
+#logo img{
+    width: 100%;
+}
+
+header nav{
+    float: right;
+    margin: 10px 50px 0 0;
+}
+
+header nav ul li{
+    float: left;
+    margin-right: 25px;
+}
+
+header nav ul li a{
+    font-size: 16px;
+}
+
+header nav ul li:hover{
+      padding-top: 5px;
+}
+
+
+/*BLOG*/
+
+#blog{
+    background-image: url(../img/BLOG_blogger_computer_internet_typography_text_media_blogging_social_1920x1080_1920x700.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#blog h1{
+    margin: 600px auto 0 auto;
+    font-size: 85px;
+}
+
+.container{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 20px 10px 50px black;
+    margin-top: -100px;
+    width: 85%;
+    height: 750px;
+    margin-left: 130px;
+    float: left;
+    
+}
+
+ .box1, .box2, .box3{
+    float:left;
+}
+/* Margin: üst, sol, alt ve sağ*/
+.box1{
+    border-style: solid;
+    border-color: red;
+    width: 500px;
+    height: 200px;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    
+}
+
+.box2{
+    border-style: solid;
+    border-color: red;
+    width: 500px;
+    height: 200px;
+    float: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+    
+
+.box3{
+    border-style: solid;
+    border-color: red;
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+   
+   
+}
+.box4, .box5, .box6{
+    float:left;
+}
+.box4{
+    border-style: solid;
+    border-color: red;
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+    
+   
+}
+.box5{
+    border-style: solid;
+    border-color: red;
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+   
+    
+   
+}
+.box6{
+    border-style: solid;
+    border-color: red;
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+   
+    
+   
+}
+.box7, .box8, .box9{
+    float:left;
+}
+.box7{
+    border-style: solid;
+    border-color: red;
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+    
+   
+}
+.box8{
+    border-style: solid;
+    border-color: red;
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+   
+    
+   
+}
+.box9{
+    border-style: solid;
+    border-color: red;
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+   
+    
+}
+.Footer{
+margin-top: 658px;
+width: 100%;
+   height: 75px;
+    background-color: #3f3f3f;
+}
+.Footer p{
+    color: white;
+   
+}
